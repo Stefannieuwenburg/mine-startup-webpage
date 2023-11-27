@@ -8,6 +8,7 @@ npm run dev
 # Tools
 npm i @headlessui/react info from https://headlessui.com/react/menu
 npm i @heroicons/react info from https://heroicons.com
+npm i flowbite-react": "^0.7.0",
 
 to do smoothcrolling:
 npm i smoothscroll-polyfill info from https://github.com/iamdustan/smoothscroll-polyfill
