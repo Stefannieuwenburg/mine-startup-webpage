@@ -25,4 +25,4 @@ h2 color: #42b3e5;blue
 h4 color: #737373;gray
  # img
   background: url(../img/pattern.jpg);
-  fun project
+  fun project !!

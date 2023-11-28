@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       {/* header section */}
       <section>
-        <div id="header" className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <div id="header" className="h-56 sm:h-64 xl:h-80 2xl:h-96 mt-20">
           <Carousel>
             <div className=" flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
               <img src={Image1} alt="..." />
@@ -19,7 +19,7 @@ const Header = () => {
                   quality service for men &amp; women
                 </span>
               </h1>
-              <button class="absolute rounded-xl text-3xl text-white bg-blue-500 p-2 bottom-12 left-1/2 -translate-x-1/2">
+              <button class="absolute rounded-xl text-3xl text-white bg-blue-200 p-2 bottom-12 left-1/2 -translate-x-1/2">
                 Learn more
               </button>
             </div>
@@ -31,7 +31,7 @@ const Header = () => {
                   quality service for men &amp; women
                 </span>
               </h1>
-              <button class="absolute rounded-xl text-3xl text-white bg-blue-500 p-2 bottom-12 left-1/2 -translate-x-1/2">
+              <button class="absolute rounded-xl text-3xl text-white bg-blue-200 p-2 bottom-12 left-1/2 -translate-x-1/2">
                 Learn more
               </button>
             </div>
@@ -43,7 +43,7 @@ const Header = () => {
                   quality service for men &amp; women
                 </span>
               </h1>
-              <button class="absolute rounded-xl text-3xl text-white bg-blue-500 p-2 bottom-12 left-1/2 -translate-x-1/2">
+              <button class="absolute rounded-xl text-3xl text-white bg-blue-200 p-2 bottom-12 left-1/2 -translate-x-1/2">
                 Learn more
               </button>
             </div>

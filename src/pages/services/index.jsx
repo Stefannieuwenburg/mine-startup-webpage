@@ -1,102 +1,84 @@
-import Service1 from "../../assets/img/service1.png";
-import Service2 from "../../assets/img/service2.png";
-import Service3 from "../../assets/img/service3.png";
-import Service4 from "../../assets/img/service4.png";
+import Item1 from "../../assets/img/item1.jpg";
+import Item2 from "../../assets/img/item2.jpg";
+import Item3 from "../../assets/img/item3.jpg";
 const Services = () => {
   return (
-    <section id="services">
-      <div class="flex items-center justify-center min-h-screen bg-blue-500 py-20 rounded-2xl">
-        <div class="flex flex-col">
-          <div class="flex flex-col mt-8">
-            <div class="container max-w-7xl px-4">
-              <div class="flex flex-wrap justify-center text-center mb-24">
-                <div class="w-full lg:w-6/12 px-4">
-                  <h1 class="text-white-100 text-4xl font-bold mb-8">Service</h1>
-                  <p class="text-white-100 text-lg font-light">
-                    With over 100 years of combined experience, we've got a
-                    well-seasoned team at the helm.
+    <section id="services ">
+      <div className="min-h-screen w-full bg-blue-100 text-white">
+        <h1 className="text-5xl font-bold text-center ">Our Services</h1>
+        <div className="flex flex-col">
+          {/* section flex-col */}
+          
+          <div>
+            <h4 className="m-4 text-center text-2xl">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled
+            </h4>
+          </div>
+          {/* section flex-row */}
+          <div className="md:flex flex-row ">
+            {/* Cart */}
+            <div className="md:w-1/3 pr-4 pl-4 ">
+              <div className="relative clearfix">
+                <div className="w-full">
+                  <img className="img-responsive w-full" src={Item1} alt="" />
+                </div>
+                <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300">
+                  <div className="w-16 h-12 relative"></div>
+                  <h3 className="text-white-100 text-center text-4xl">
+                    Children’s specialist
+                  </h3>
+                  <p className="text-white-100 m-2 text-center">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer.
                   </p>
                 </div>
               </div>
-              <div class="flex flex-wrap">
-                <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div class="flex flex-col">
-                    <a href="#" class="mx-auto">
-                      <img
-                        class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                        src={Service1}
-                      />
-                    </a>
-                    <div class="text-center mt-6">
-                      <h1 class="text-gray-900 text-xl font-bold mb-1">
-                        Tranter Jaskulski
-                      </h1>
-                      <div class="text-gray-700 font-light mb-2">
-                        Founder & Specialist
-                      </div>
-                    </div>
-                  </div>
+            </div>
+            {/* Cart */}
+            <div className="md:w-1/3 pr-4 pl-4 ">
+              <div className="relative clearfix">
+                <div className="w-full">
+                  <img className="img-responsive w-full " src={Item2} alt="" />
                 </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div class="flex flex-col">
-                    <a href="#" class="mx-auto">
-                      <img
-                        class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                        src={Service2}
-                      />
-                    </a>
-                    <div class="text-center mt-6">
-                      <h1 class="text-gray-900 text-xl font-bold mb-1">
-                        Denice Jagna
-                      </h1>
-                      <div class="text-gray-700 font-light mb-2">
-                        Tired & M. Specialist
-                      </div>
-                      <div
-                        class="flex items-center justify-center opacity-50 hover:opacity-100
-                                transition-opacity duration-300"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div class="flex flex-col">
-                    <a href="#" class="mx-auto">
-                      <img
-                        class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                        src={Service3}
-                      />
-                    </a>
-                    <div class="text-center mt-6">
-                      <h1 class="text-gray-900 text-xl font-bold mb-1">
-                        Kenji Milton
-                      </h1>
-                      <div class="text-gray-700 font-light mb-2">
-                        Team Memeber
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div class="flex flex-col">
-                    <a href="#" class="mx-auto">
-                      <img
-                        class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                        src={Service4}
-                      />
-                    </a>
-                    <div class="text-center mt-6">
-                      <h1 class="text-gray-900 text-xl font-bold mb-1">
-                        Doesn't matter
-                      </h1>
-                      <div class="text-gray-700 font-light mb-2">
-                        Will be fired
-                      </div>
-                    </div>
-                  </div>
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300 ">
+                  <div className="w-16 h-12 relative"></div>
+                  <h3 className=" text-white-100 text-center text-4xl">
+                    Women specialist
+                  </h3>
+                  <p className=" text-white-100 text-center m-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer.
+                  </p>
                 </div>
               </div>
             </div>
+            {/* Cart */}
+            <div className="md:w-1/3 pr-4 pl-4 ">
+              <div className="relative clearfix">
+                <div className="w-full">
+                  <img className="img-responsive w-full" src={Item3} alt="" />
+                </div>
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300 ">
+                  <div className="w-16 h-12 relative "></div>
+                  <h3 className="text-white-100 text-center text-4xl">
+                    Men specialist
+                  </h3>
+                  <p className="text-white-100 m-2 text-center">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* end cart */}
           </div>
         </div>
       </div>
