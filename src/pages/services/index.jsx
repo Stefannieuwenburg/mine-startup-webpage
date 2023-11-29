@@ -24,12 +24,12 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full" src={Item1} alt="" />
                 </div>
-                <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300">
+                <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300">
                   <div className="w-16 h-12 relative"></div>
                   <h3 className="text-white-100 text-center text-4xl">
                     Children’s specialist
                   </h3>
-                  <p className="text-white-100 m-2 text-center">
+                  <p className="text-white-100 m-1 text-center">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
@@ -44,7 +44,7 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full " src={Item2} alt="" />
                 </div>
-                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300 ">
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300 ">
                   <div className="w-16 h-12 relative"></div>
                   <h3 className=" text-white-100 text-center text-4xl">
                     Women specialist
@@ -64,12 +64,12 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full" src={Item3} alt="" />
                 </div>
-                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-gray-400 hover:-translate-y-1 hover:scale-110 hover:bg-gray-500 duration-300 ">
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300 ">
                   <div className="w-16 h-12 relative "></div>
                   <h3 className="text-white-100 text-center text-4xl">
                     Men specialist
                   </h3>
-                  <p className="text-white-100 m-2 text-center">
+                  <p className="text-white-100 m-1 text-center">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown

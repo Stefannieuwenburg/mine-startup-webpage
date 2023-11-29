@@ -9,8 +9,13 @@ npm run dev
 npm i @headlessui/react info from https://headlessui.com/react/menu
 npm i @heroicons/react info from https://heroicons.com
 npm i flowbite-react": "^0.7.0",
+https://fontawesome.com/v5/docs/web/use-with/react
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
 
-to do smoothcrolling:
+
+!!!!to do smoothcrolling !!!!!
 npm i smoothscroll-polyfill info from https://github.com/iamdustan/smoothscroll-polyfill
 
 # colors
@@ -23,6 +28,6 @@ service-img background:#3a9ecb;blue
 border-top: 40px solid #3a9ecb;blue
 h2 color: #42b3e5;blue
 h4 color: #737373;gray
- # img
-  background: url(../img/pattern.jpg);
-  fun project !!
+ 
+ 
+fun project !!!
