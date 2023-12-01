@@ -12,20 +12,35 @@ const Video = () => {
         <div className="grid  sm:grid-cols-2  md:grid-cols-3 gap-2 px-12 place-items-center border-4 m-4 ">
           <div className="bg-gray-200 p-20 m-2 rounded-xl">
             <iframe
-              class="w-full aspect-video ..."
-              src="https://www.youtube.com/..."
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/5yMvczLR8X4?si=eP4eCwcsLF6bavCA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
           <div className="bg-gray-200 p-20 m-2 rounded-xl">
             <iframe
-              class="w-full aspect-video ..."
-              src="https://www.youtube.com/..."
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/5yMvczLR8X4?si=eP4eCwcsLF6bavCA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
           <div className="bg-gray-200 p-20 m-2 rounded-xl">
             <iframe
-              class="w-full aspect-video ..."
-              src="https://www.youtube.com/..."
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/5yMvczLR8X4?si=eP4eCwcsLF6bavCA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Footer = () => {
   return (
     <footer id="footer" className="relative bg-blue-100 pt-8 pb-6">

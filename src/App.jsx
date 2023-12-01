@@ -1,16 +1,17 @@
 import Layout from "./componets/layout/index";
-import Hearder from "./pages/header/index";
-import About from "../src/pages/about/index";
+import ImgCarousel from "./pages/imcarousel/index";
+import Hero from "./pages/hero/index";
 import Video from "./pages/video/index";
 import Service from "../src/pages/services/index";
 import Contact from "../src/pages/contact/index";
+
 
 const App = () => {
   return (
     <>
       <Layout>
-        <About />
-        <Hearder />
+        <Hero />
+        <ImgCarousel />
         <Video />
         <Service />
         <Contact />

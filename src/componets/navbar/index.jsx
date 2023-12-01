@@ -23,10 +23,11 @@ const Navbar = () => {
           <a href="#" className="-m-1.5 p-1.5">
             <img className="h-16 w-16" src={logo} alt="" />
           </a>
-          <span className="text-center m-4 text-2xl font-semibold">Dr.Mine</span>
+          <span className="text-center m-4 text-2xl font-semibold">
+            Prof. Dr. Zahide Mine Yazıcı
+          </span>
         </div>
-        <div className="text-3xl font-semibold leading-6">
-        </div>
+        <div className="text-3xl font-semibold leading-6"></div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -63,7 +64,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <img className="h-20 w-auto" src={logo} alt="" />
-              <span className="">DR.Mine</span>
+              <span className="">Prof. Dr. Zahide Mine Yazıcı</span>
             </a>
             <button
               type="button"
