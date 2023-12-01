@@ -4,8 +4,8 @@ import Item3 from "../../assets/img/item3.jpg";
 const Services = () => {
   return (
     <section id="services ">
-      <div className="min-h-screen w-full bg-blue-100 text-white">
-        <h1 className="text-5xl font-bold text-center ">
+      <div className="min-h-screen w-full bg-blue-100 text-white ">
+        <h1 className="text-5xl font-bold text-center p-2 bg-teal-400 ">
           {" "}
           Tıbbi İlgi Alanları
         </h1>
@@ -27,7 +27,7 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full" src={Item1} alt="" />
                 </div>
-                <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300">
+                <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400 duration-300">
                   <div className="w-16 h-12 relative"></div>
                   <h3 className="text-white-100 text-center text-4xl">
                     Rinoloji
@@ -47,7 +47,7 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full " src={Item2} alt="" />
                 </div>
-                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300 ">
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400  duration-300 ">
                   <div className="w-16 h-12 relative"></div>
                   <h3 className=" text-white-100 text-center text-4xl">
                     Otoloji
@@ -67,7 +67,7 @@ const Services = () => {
                 <div className="w-full">
                   <img className="img-responsive w-full" src={Item3} alt="" />
                 </div>
-                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-blue-800 duration-300 ">
+                <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400  duration-300 ">
                   <div className="w-16 h-12 relative "></div>
                   <h3 className="text-white-100 text-center text-4xl">
                     Pediatrik KBB

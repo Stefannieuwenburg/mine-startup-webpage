@@ -5,10 +5,11 @@ import logo from "../../assets/logo/logo.png";
 
 const navigation = [
   { name: "HOME", href: "#" },
+  { name: "VIDEO", href: "#" },
   { name: "ABOUT", href: "#" },
   { name: "OUR SERVICES", href: "#" },
-  { name: "TEAM", href: "#" },
   { name: "CONTACT", href: "#" },
+  { name: "INFO", href: "#" },
 ];
 const Navbar = () => {
    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
