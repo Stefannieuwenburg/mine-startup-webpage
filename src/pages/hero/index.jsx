@@ -25,7 +25,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div class="w-full h-auto md:w-3/4 flex justify-center md:justify-end">
             <img src={Image} alt="hero" />
           </div>
         </div>

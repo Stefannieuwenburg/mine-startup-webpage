@@ -1,6 +1,6 @@
-import Item1 from "../../assets/img/item1.jpg";
-import Item2 from "../../assets/img/item2.jpg";
-import Item3 from "../../assets/img/item3.jpg";
+import Item1 from "../../assets/img/desk2.jpg";
+import Item2 from "../../assets/img/desk1.jpg";
+import Item3 from "../../assets/img/doc3.jpg";
 const Services = () => {
   return (
     <section id="services ">
@@ -25,7 +25,11 @@ const Services = () => {
             <div className="md:w-1/3 pr-4 pl-4 ">
               <div className="relative clearfix">
                 <div className="w-full">
-                  <img className="img-responsive w-full" src={Item1} alt="" />
+                  <img
+                    className="img-responsive w-full h-auto"
+                    src={Item1}
+                    alt=""
+                  />
                 </div>
                 <div className="rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400 duration-300">
                   <div className="w-16 h-12 relative"></div>
@@ -42,10 +46,14 @@ const Services = () => {
               </div>
             </div>
             {/* Cart */}
-            <div className="md:w-1/3 pr-4 pl-4 ">
+            <div className="md:w-1/3 pr-4 pl-4 mt-32">
               <div className="relative clearfix">
                 <div className="w-full">
-                  <img className="img-responsive w-full " src={Item2} alt="" />
+                  <img
+                    className="img-responsive w-full h-auto"
+                    src={Item2}
+                    alt=""
+                  />
                 </div>
                 <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400  duration-300 ">
                   <div className="w-16 h-12 relative"></div>
@@ -65,7 +73,11 @@ const Services = () => {
             <div className="md:w-1/3 pr-4 pl-4 ">
               <div className="relative clearfix">
                 <div className="w-full">
-                  <img className="img-responsive w-full" src={Item3} alt="" />
+                  <img
+                    className="img-responsive w-fullh-auto"
+                    src={Item3}
+                    alt=""
+                  />
                 </div>
                 <div className=" rounded-sm p-4 w-full transition ease-in-out delay-150 bg-blue-950 hover:-translate-y-1 hover:scale-110 hover:bg-teal-400  duration-300 ">
                   <div className="w-16 h-12 relative "></div>
