@@ -1,4 +1,4 @@
-
+import { FaTwitter, FaFacebookF, FaWhatsapp, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer id="footer" className="relative bg-blue-100 pt-8 pb-6">
@@ -6,33 +6,38 @@ const Footer = () => {
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl fonat-semibold text-gray-700">
-              Let's keep in touch!
+              İrtibatta kalalım!
             </h4>
-            <h5 className="text-lg mt-0 mb-2 text-blueGray-600">Find us</h5>
+            <h5 className="text-lg mt-0 mb-2 text-blueGray-600">bizi bul</h5>
             <div className="mt-6 lg:mb-0 mb-6">
-              <button
-                className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-twitter"></i>
+              <button>
+                <FaTwitter
+                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  Twitter
+                </FaTwitter>
               </button>
-              <button
-                className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-facebook-square"></i>
+              <button>
+                <FaFacebookF
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  Facebook
+                </FaFacebookF>
               </button>
-              <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-dribbble"></i>
+              <button>
+                <FaWhatsapp
+                  className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  Whatsapp
+                </FaWhatsapp>
               </button>
-              <button
-                className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-github"></i>
+              <button>
+                <FaGithub className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                  Github
+                </FaGithub>
               </button>
             </div>
           </div>
@@ -40,7 +45,7 @@ const Footer = () => {
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
                 <span className="block uppercase text-blueGray-500 text-2xl font-semibold mb-2">
-                  Useful Links
+                  kullanışlı bağlantılar
                 </span>
                 <ul className="list-unstyled">
                   <li>
@@ -79,7 +84,7 @@ const Footer = () => {
               </div>
               <div className="w-full lg:w-4/12 px-4">
                 <span className="block uppercase  text-2xl font-semibold mb-2">
-                  Other Resources
+                  DİĞER KAYNAKLAR
                 </span>
                 <ul className="list-unstyled">
                   <li>
@@ -128,7 +133,7 @@ const Footer = () => {
                 href="https://github.com/Stefannieuwenburg"
                 className="text-gray-800 hover:text-gray-500 text-sm font-semibold block py-2 text-center hover:text-blueGray-800"
               >
-                Creative by stefan
+                Creative by stefan Nieuwenburg
               </a>
             </div>
           </div>
