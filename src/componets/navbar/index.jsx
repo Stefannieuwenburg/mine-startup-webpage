@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import logo from "../../assets/logo/logo.png";
-
+import logo from "../../assets/logos/logo.png";
+import {  FaWhatsapp } from "react-icons/fa";
 const navigation = [
-  { name: "HOME", href: "#" },
-  { name: "VIDEO", href: "#" },
-  { name: "ABOUT", href: "#" },
-  { name: "OUR SERVICES", href: "#" },
-  { name: "CONTACT", href: "#" },
-  { name: "INFO", href: "#" },
+  { name: "Evde", href: "#" },
+  { name: "Video", href: "#" },
+  { name: "About", href: "#" },
+  { name: "Tıbbi uzmanlık", href: "#" },
+  { name: "Temas etmek", href: "#" },
+  { name: "Bilgi", href: "#" },
 ];
 const Navbar = () => {
    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -51,7 +51,14 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          {/* span for whatsapp button space */}
+          <button>
+            <FaWhatsapp
+              className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button"
+            >
+              Whatsapp
+            </FaWhatsapp>
+          </button>
         </div>
       </nav>
       <Dialog
@@ -89,7 +96,16 @@ const Navbar = () => {
                   </a>
                 ))}
               </div>
-              <div className="py-6">{/* span for whatsapp button space */}</div>
+              <div className="py-6">
+                <button>
+                  <FaWhatsapp
+                    className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    Whatsapp
+                  </FaWhatsapp>
+                </button>
+              </div>
             </div>
           </div>
         </Dialog.Panel>

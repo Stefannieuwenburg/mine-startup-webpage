@@ -1,4 +1,4 @@
-import Layout from "./componets/layout/index";
+import Layout from "./layout/index";
 import Hero from "./pages/hero/index";
 import Video from "./pages/video/index";
 import Service from "../src/pages/services/index";
