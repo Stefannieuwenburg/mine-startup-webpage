@@ -4,15 +4,19 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logos/logo.png";
 import {  FaWhatsapp } from "react-icons/fa";
 const navigation = [
-  { name: "Evde", href: "#" },
-  { name: "Video", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Tıbbi uzmanlık", href: "#" },
-  { name: "Temas etmek", href: "#" },
-  { name: "Bilgi", href: "#" },
+  { name: "Evde", href: "#hero" },
+  { name: "Video", href: "#video" },
+  { name: "About", href: "#about" },
+  // TODO: about page
+  { name: "Tıbbi uzmanlık", href: "#specialiteit" },
+  { name: "Temas etmek", href: "#contact" },
+  { name: "Bilgi", href: "#footer" },
 ];
 const Navbar = () => {
-   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const handleClickPopup = (e) => {
+    e.preventDefault(alert("WhatsApp: +05011554838"));
+  };
   return (
     <div>
       {/* nav */}
@@ -51,7 +55,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button>
+          <button onClick={handleClickPopup}>
             <FaWhatsapp
               className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
@@ -97,7 +101,7 @@ const Navbar = () => {
                 ))}
               </div>
               <div className="py-6">
-                <button>
+                <button onClick={handleClickPopup} >
                   <FaWhatsapp
                     className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"

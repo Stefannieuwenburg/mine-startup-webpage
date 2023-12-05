@@ -2,7 +2,7 @@
 const Contact = () => {
 	return (
     <>
-      <div className="container my-24 mx-auto md:px-6">
+      <div id="contact" className="container my-24 mx-auto md:px-6">
         <section className="mb-32 text-center">
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">

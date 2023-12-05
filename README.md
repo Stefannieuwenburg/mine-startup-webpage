@@ -18,7 +18,13 @@ npm install @react-icons/all-files --save
 npm install react-icons --save
 
 !!!!to do smoothcrolling !!!!!
-npm i smoothscroll-polyfill info from https://github.com/iamdustan/smoothscroll-polyfill
+
+https://medium.com/@afrononymous/make-scrolling-on-your-react-app-fun-using-react-scroll-9436235155a0
+
+npm install react-scroll
+import { Link } from react-scroll;
+<a href=”#about”>About Page</a> to <Link to=”about” smooth duration={500}>About Page</Link>
+The <a> tag is switched with a Link tag.
 
 # colors
 background: #fff !important;white
@@ -34,5 +40,5 @@ h4 color: #737373;gray
 # Whatsapp
 05011554838
  
-fun project !!
+fun project !!!!
 

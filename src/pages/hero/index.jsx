@@ -1,6 +1,12 @@
 import Image from "../../assets/images/mine.jpg";
 
 const Hero = () => {
+  const VideoHandleClick = (e) => {
+    e.preventDefault();
+    document.querySelector("#video").scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <section id="hero">
       <div className="flex px-2 md:px-20 items-center justify-center md:h-screen overflow-hidden">
@@ -19,7 +25,7 @@ const Hero = () => {
               <button className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md  bg-blue-100 text-white border-2  hover:bg-blue-800">
                 bilgi
               </button>
-              <button className="w-full mt-4 sm:mt-0 sm:ml-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-teal-400   text-white-100 border-2  hover:bg-blue-800 hover:text-white">
+              <button onClick={VideoHandleClick} className="w-full mt-4 sm:mt-0 sm:ml-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-teal-400   text-white-100 border-2  hover:bg-blue-800 hover:text-white">
                 Sunum videosu
               </button>
             </div>

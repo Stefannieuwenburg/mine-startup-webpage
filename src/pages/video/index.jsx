@@ -1,6 +1,7 @@
 import React from "react";
 
 const Video = () => {
+  
   return (
     <>
       <section id="video" className=" mx-auto px-4 min-h-screen  m-4 ">

@@ -1,10 +1,10 @@
 import Item1 from "../../assets/images/desk2.jpg";
 import Item2 from "../../assets/images/desk1.jpg";
 import Item3 from "../../assets/images/doc3.jpg";
-const Services = () => {
+const Specialiteit = () => {
   return (
-    <section id="services ">
-      <div className="min-h-screen w-full bg-blue-100 text-white ">
+    <section id="specialiteit">
+      <div className="w-full bg-blue-100 text-white ">
         <h1 className="text-5xl font-bold text-center p-2 bg-teal-400 ">
           {" "}
           Tıbbi uzmanlık
@@ -17,7 +17,7 @@ const Services = () => {
             {/* Cart */}
             <div className="m-4 md:w-1/3 pr-4 pl-4 ">
               <div className="relative clearfix">
-                <div className="w-full">
+                <div>
                   <img
                     className="img-responsive w-full h-auto"
                     src={Item1}
@@ -47,7 +47,7 @@ const Services = () => {
             {/* Cart */}
             <div className="md:w-1/3 pr-4 pl-4 mt-32">
               <div className="relative clearfix">
-                <div className="w-full">
+                <div>
                   <img
                     className="img-responsive w-full h-auto"
                     src={Item2}
@@ -74,9 +74,9 @@ const Services = () => {
             {/* Cart */}
             <div className="m-4 md:w-1/3 pr-4 pl-4 ">
               <div className="relative clearfix">
-                <div className="w-full">
+                <div>
                   <img
-                    className="img-responsive w-fullh-auto"
+                    className="img-responsive w-full h-auto"
                     src={Item3}
                     alt=""
                   />
@@ -104,4 +104,4 @@ const Services = () => {
     </section>
   );
 };
-export default Services;
+export default Specialiteit;
