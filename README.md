@@ -16,13 +16,6 @@ npm install --save @fortawesome/react-fontawesome
 # React icons
 npm install @react-icons/all-files --save
 npm install react-icons --save
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-
-class Question extends React.Component {
-  render() {
-    return <h3> Lets go for a <FaBeer />? </h3>
-  }
-}
 
 !!!!to do smoothcrolling !!!!!
 npm i smoothscroll-polyfill info from https://github.com/iamdustan/smoothscroll-polyfill
@@ -38,5 +31,8 @@ border-top: 40px solid #3a9ecb;blue
 h2 color: #42b3e5;blue
 h4 color: #737373;gray
  
+# Whatsapp
+05011554838
  
-fun project !!!!
+fun project !!
+
