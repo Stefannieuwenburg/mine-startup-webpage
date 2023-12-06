@@ -1,15 +1,17 @@
 import { FaTwitter, FaFacebookF, FaWhatsapp, FaGithub } from "react-icons/fa";
+
+// ombouwen naar grid
 const Footer = () => {
   return (
-    <footer id="footer" className="relative bg-blue-100 pt-8 pb-6">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-left lg:text-left">
+    <footer id="footer" className=" w-full pt-8 pb-6">
+      <div className=" container  px-4">
+        <div className="flex flex-wrap text-left md:text-left">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl fonat-semibold text-gray-700">
               İrtibatta kalalım!
             </h4>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">bizi bul</h5>
-            <div className="mt-6 lg:mb-0 mb-6">
+            <div className="mt-6 md:mb-0 mb-6">
               <button>
                 <FaTwitter
                   className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -41,9 +43,9 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="w-full lg:w-6/12 px-4">
+          <div className="w-full md:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
-              <div className="w-full lg:w-4/12 px-4 ml-auto">
+              <div className="w-full md:w-4/12 px-4 ml-auto">
                 <span className="block uppercase text-blueGray-500 text-2xl font-semibold mb-2">
                   kullanışlı bağlantılar
                 </span>

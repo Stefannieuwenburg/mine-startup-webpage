@@ -5,19 +5,21 @@ const Video = () => {
   return (
     <>
       <section id="video" className=" mx-auto px-4 min-h-screen  m-4 ">
-        <div className="flex justify-center items-center flex-col bg-teal-400  ">
-          <h1 className="text-white-100 text-5xl font-bold m-4 ">videolar</h1>
-          <div class="bg-indigo-darkest text-center py-4 lg:px-4">
+        <div className="flex justify-center items-center flex-col  bg-teal-400  ">
+          <h1 className="text-white-100 text-5xl font-bold m-2 ">videolar</h1>
+          <div class="bg-indigo-darkest text-center py-2 lg:px-4">
             <div
               class="p-2 bg-indigo-darker items-center text-indigo-lightest leading-none lg:rounded-full flex lg:inline-flex"
               role="alert"
             >
-              <span class="flex rounded-full bg-indigo uppercase px-1 py-1 text-xl font-bold text-white-100 mr-3">
+              <div className="flex flex-col items-center">
+              <span class="flex bg-indigo uppercase p-4 text-2xl font-bold text-white-100 mr-3">
                 Yeni
               </span>
-              <span class="font-semibold text-left text-white-100 text-2xl flex-auto">
+              <span class="font-semibold  text-white-100 text-2xl flex-auto">
                 Prof. Dr. Zahide Mine Yazıcı'nın sunum videosu
               </span>
+              </div>
               <svg
                 className="fill-current opacity-75 h-4 w-4"
                 xmlns="http://www.w3.org/2000/svg"

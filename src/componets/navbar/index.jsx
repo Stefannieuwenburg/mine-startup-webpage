@@ -2,16 +2,18 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logos/logo.png";
-import {  FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+
 const navigation = [
   { name: "Evde", href: "#hero" },
   { name: "Video", href: "#video" },
-  { name: "About", href: "#about" },
+  { name: "hakkında", href: "#info" },
   // TODO: about page
   { name: "Tıbbi uzmanlık", href: "#specialiteit" },
   { name: "Temas etmek", href: "#contact" },
   { name: "Bilgi", href: "#footer" },
 ];
+
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const handleClickPopup = (e) => {
