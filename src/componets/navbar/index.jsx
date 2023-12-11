@@ -59,7 +59,8 @@ const Navbar = () => {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button onClick={handleClickPopup}>
             <FaWhatsapp
-              className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
+              inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
               type="button"
             >
               Whatsapp
@@ -103,9 +104,10 @@ const Navbar = () => {
                 ))}
               </div>
               <div className="py-6">
-                <button onClick={handleClickPopup} >
+                <button onClick={handleClickPopup}>
                   <FaWhatsapp
-                    className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
+              inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
                     type="button"
                   >
                     Whatsapp

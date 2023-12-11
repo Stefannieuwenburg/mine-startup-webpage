@@ -40,5 +40,5 @@ h4 color: #737373;gray
 # Whatsapp
 05011554838
  
-fun project !!!
+fun project !
 
