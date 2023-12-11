@@ -15,24 +15,27 @@ const Footer = () => {
     e.preventDefault(alert("WhatsApp: +05011554838"));
   };
   return (
-    <footer id="footer" className="flex flex-col space-y-10 justify-center m-10">
+    <footer
+      id="footer"
+      className="flex flex-col space-y-10 justify-center m-10"
+    >
       <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#hero">
           Evde
         </a>
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#video">
           Video
         </a>
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#info">
           hakkinda
         </a>
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#specialiteit">
           tibbi uzmanlik
         </a>
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#contact">
           Temas etmek
         </a>
-        <a className="hover:text-gray-900" href="#">
+        <a className="hover:text-gray-900" href="#footer">
           Bilgi
         </a>
       </nav>
@@ -67,7 +70,11 @@ const Footer = () => {
         </a>
 
         <a>
-          <span onClick={handleClickPopup} style={{ background: "#04880a" }} className={circleclasses}>
+          <span
+            onClick={handleClickPopup}
+            style={{ background: "#04880a" }}
+            className={circleclasses}
+          >
             <FaWhatsapp style={iconStyles} />
           </span>
         </a>
