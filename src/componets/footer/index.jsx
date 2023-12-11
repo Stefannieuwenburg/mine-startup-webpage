@@ -15,7 +15,7 @@ const Footer = () => {
     e.preventDefault(alert("WhatsApp: +05011554838"));
   };
   return (
-    <footer className="flex flex-col space-y-10 justify-center m-10">
+    <footer id="footer" className="flex flex-col space-y-10 justify-center m-10">
       <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
         <a className="hover:text-gray-900" href="#">
           Evde

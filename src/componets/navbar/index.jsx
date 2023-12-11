@@ -1,17 +1,17 @@
 import { useState } from "react";
+import {Link} from "react-scroll";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logos/logo.png";
 import { FaWhatsapp } from "react-icons/fa";
 
 const navigation = [
-  { name: "Evde", href: "#hero" },
-  { name: "Video", href: "#video" },
-  { name: "hakkında", href: "#info" },
-  // TODO: about page
-  { name: "Tıbbi uzmanlık", href: "#specialiteit" },
-  { name: "Temas etmek", href: "#contact" },
-  { name: "Bilgi", href: "#footer" },
+  { name: "Evde", href: "hero" },
+  { name: "Video", href: "video" },
+  { name: "hakkında", href: "info" },
+  { name: "Tıbbi uzmanlık", href: "specialiteit" },
+  { name: "Temas etmek", href: "contact" },
+  { name: "Bilgi", href: "footer" },
 ];
 
 const Navbar = () => {
@@ -47,13 +47,15 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <Link
+              to={item.href}
               key={item.name}
-              href={item.href}
+              smooth
+              duration={500}
               className="text-3xl font-semibold leading-6 text-gray-700 hover:text-blue-100"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -94,13 +96,16 @@ const Navbar = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <a
+                  <Link
+                    onClick={() => setMobileMenuOpen(false)}
                     key={item.name}
-                    href={item.href}
+                    to={item.href}
+                    smooth
+                    duration={500}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:text-blue-400 hover:bg-gray-50"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
               <div className="py-6">
