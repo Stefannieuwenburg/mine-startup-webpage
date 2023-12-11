@@ -1,13 +1,13 @@
 import Navbar from "../componets/navbar";
-//import Footer from "../componets/footer";
+import Footer from "../componets/footer";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen">
         <Navbar />
         <main>{children}</main>
-        
+        <Footer />
       </body>
     </>
   );

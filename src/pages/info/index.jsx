@@ -9,7 +9,7 @@ export default function Info() {
     }
     return (
       <>
-        <div id="info" className="h-screen w-full mb-4">
+        <div id="info" className="min-h-screen w-full mb-4">
           <div className="flex flex-col md:flex-row">
             {/* box1 */}
             <section className=" h-screen max-w-full bg-blue-100">
@@ -57,7 +57,7 @@ export default function Info() {
               </div>
             </section>
             {/* box2 */}
-            <section className=" h-screen max-w-full  bg-teal-400">
+            <section className="min-h-screen max-w-full  bg-teal-400">
               <div className="px-4">
                 <div className="container">
                   <img
