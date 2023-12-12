@@ -20,6 +20,7 @@ npm install @react-icons/all-files --save
 npm install react-icons --save
 
 
+
 # colors
 background: #fff !important;white
 color: #42b3e5 !important; blue
@@ -36,3 +37,6 @@ h4 color: #737373;gray
  
 fun project !!!
 
+# to do
+- add conection with the form contact
+- add links to the footer

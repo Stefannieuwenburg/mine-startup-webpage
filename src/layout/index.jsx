@@ -4,11 +4,9 @@ import Footer from "../componets/footer";
 const Layout = ({ children }) => {
   return (
     <>
-      <body className="min-h-screen">
         <Navbar />
-        <main>{children}</main>
+        <div>{children}</div>
         <Footer />
-      </body>
     </>
   );
 };
