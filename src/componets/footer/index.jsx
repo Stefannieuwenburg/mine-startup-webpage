@@ -1,10 +1,10 @@
 
 import React from "react";
 import {
-  FaFacebookF,
   FaWhatsapp,
   FaInstagram,
   FaLinkedin,
+  FaRegEnvelope,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -21,46 +21,43 @@ const Footer = () => {
     >
       <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
         <a className="hover:text-gray-900" href="#hero">
-          Evde
+          Ana Sayfa
         </a>
         <a className="hover:text-gray-900" href="#video">
           Video
         </a>
         <a className="hover:text-gray-900" href="#info">
-          hakkinda
+          Hakkımda
         </a>
         <a className="hover:text-gray-900" href="#specialiteit">
-          tibbi uzmanlik
+          Klinik Uzmanlıklar
         </a>
         <a className="hover:text-gray-900" href="#contact">
-          Temas etmek
-        </a>
-        <a className="hover:text-gray-900" href="#footer">
-          Bilgi
+          İletişim
         </a>
       </nav>
 
       <div className="flex justify-center space-x-5">
         <a
-          href="https://facebook.com"
+          href="https://www.linkedin.com/in/zahide-mine-yaz%C4%B1c%C4%B1-252a70228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span style={{ background: "#3e75eb" }} className={circleclasses}>
-            <FaFacebookF style={iconStyles} />
-          </span>
-        </a>
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span style={{ background: "#0a2e7a" }} className={circleclasses}>
             <FaLinkedin style={iconStyles} />
           </span>
         </a>
         <a
-          href="https://instagram.com"
+          href="mailto:Zahide.yazici@medicana.com.tr?body=Prof. Dr. Mine Yazıcı,"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span style={{ background: "#0a2e7a" }} className={circleclasses}>
+            <FaRegEnvelope style={iconStyles} />
+          </span>
+        </a>
+        <a
+          href="https://www.instagram.com/prof.dr.mineyazici?igsh=OXE3MTF0c29tdm14"
           target="_blank"
           rel="noopener noreferrer"
         >

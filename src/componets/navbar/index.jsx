@@ -6,12 +6,11 @@ import logo from "../../assets/logos/logo.png";
 import { FaWhatsapp } from "react-icons/fa";
 
 const navigation = [
-  { name: "Evde", href: "hero" },
+  { name: "Ana Sayfa", href: "hero" },
   { name: "Video", href: "video" },
-  { name: "hakkında", href: "info" },
-  { name: "Tıbbi uzmanlık", href: "specialiteit" },
-  { name: "Temas etmek", href: "contact" },
-  { name: "Bilgi", href: "footer" },
+  { name: "Hakkımda", href: "info" },
+  { name: "Klinik Uzmanlıklar", href: "specialiteit" },
+  { name: "İletişim", href: "contact" },
 ];
 
 const Navbar = () => {
@@ -51,7 +50,7 @@ const Navbar = () => {
               to={item.href}
               key={item.name}
               smooth
-              duration={600}
+              duration={700}
               className="text-3xl font-semibold leading-6 text-gray-700 hover:text-blue-100"
             >
               {item.name}
@@ -101,7 +100,7 @@ const Navbar = () => {
                     key={item.name}
                     to={item.href}
                     smooth
-                    duration={600}
+                    duration={700}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:text-blue-400 hover:bg-gray-50"
                   >
                     {item.name}

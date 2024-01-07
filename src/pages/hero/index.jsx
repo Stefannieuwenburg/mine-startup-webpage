@@ -25,14 +25,19 @@ const Hero = () => {
             <h3 className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
               Prof. Dr. Zahide Mine Yazıcı, İstanbul Üniversitesi Tıp
               Fakültesi’nden mezun olduktan sonra, Marmara Hastanesi’nde Kulak
-              Burun Boğaz (KBB) Hastalıkları uzmanlık eğitimi almıştır.
+              Burun Boğaz (KBB) Hastalıkları uzmanlık eğitimi almıştır. <br />
+              <br />
+              Kulak cerrahisi, endoskopik sinüs cerrahisi, burun cerrahisi,
+              çocuk KBB ve baş boyun cerrahisi alanlarında uzman Prof. Dr.
+              Zahide Mine Yazıcı Ataköy Medicana Hastanesi’nde hastalarının
+              tedavi ve tanı ihtiyaçlarına güvenilir çözümler sunmaktadır.
             </h3>
             <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
               <button
                 onClick={HandleClickInfo}
                 className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md  bg-blue-100 text-white border-2  hover:bg-blue-800"
               >
-                hakkında
+                Hakkımda
               </button>
               <button
                 onClick={HandleClickVideo}
