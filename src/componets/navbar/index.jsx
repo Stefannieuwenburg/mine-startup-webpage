@@ -15,9 +15,7 @@ const navigation = [
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const handleClickPopup = (e) => {
-    e.preventDefault(alert("WhatsApp: +05011554838"));
-  };
+  
   return (
     <div>
       {/* nav */}
@@ -58,15 +56,17 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button onClick={handleClickPopup}>
+          <a
+            target="_blank"
+            aria-label="Chat on WhatsApp"
+            href="https://wa.me/+905011554838"
+          >
             <FaWhatsapp
               className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
               inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
               type="button"
-            >
-              Whatsapp
-            </FaWhatsapp>
-          </button>
+            ></FaWhatsapp>
+          </a>
         </div>
       </nav>
       <Dialog
@@ -108,15 +108,18 @@ const Navbar = () => {
                 ))}
               </div>
               <div className="py-6">
-                <button onClick={handleClickPopup}>
+                <a
+                  target="_blank"
+                  aria-label="Chat on WhatsApp"
+                  href="https://wa.me/+905011554838"
+                >
                   <FaWhatsapp
                     className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
               inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
                     type="button"
                   >
-                    Whatsapp
                   </FaWhatsapp>
-                </button>
+                </a>
               </div>
             </div>
           </div>
