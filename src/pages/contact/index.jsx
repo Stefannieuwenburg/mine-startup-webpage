@@ -106,14 +106,14 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="md:mb-12 lg:mb-0">
-                  <div className="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
+                  {/* <div className="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
                     <iframe
                       src="https://maps.google.com/maps?q=istanboel&t=&z=13&ie=UTF8&iwloc=&output=embed"
                       className="absolute left-0 top-0 h-full w-full rounded-lg"
                       frameborder="0"
                       allowfullscreen
                     ></iframe>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
