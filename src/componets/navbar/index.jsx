@@ -2,7 +2,7 @@ import { useState } from "react";
 import {Link} from "react-scroll";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp,FaPhone} from "react-icons/fa";
 
 const navigation = [
   { name: "Ana Sayfa", href: "hero" },
@@ -48,7 +48,12 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <span className="m-4 text-xl font-semibold leading-6 text-gray-700">+90 501 155 48 38</span>
+          <FaPhone
+            className="bg-black text-white-100 font-normal items-center justify-center align-center h-12 w-12 focus:outline-none mr-2
+              inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
+          ></FaPhone>{" "}
+          <span className="text-xl text-gray-700 font-normal m-4">+905011554838
+          </span>
           <a
             target="_blank"
             aria-label="Chat on WhatsApp"
@@ -58,7 +63,11 @@ const Navbar = () => {
               className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
               inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
               type="button"
-            ></FaWhatsapp>
+            ></FaWhatsapp>{" "}
+            <span className="text-xl text-gray-700 font-normal mt-2">
+              {" "}
+                WhatsApp
+            </span>
           </a>
         </div>
       </nav>
@@ -104,11 +113,22 @@ const Navbar = () => {
                   href="https://wa.me/+905011554838"
                 >
                   <FaWhatsapp
-                    className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 items-center justify-center align-center  outline-none focus:outline-none mr-2
+                    className="bg-green-400 text-white-100 shadow-lg font-normal h-10 w-10 items-center justify-center align-center  outline-none focus:outline-none mr-2
               inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
                     type="button"
                   ></FaWhatsapp>
+                  <br />
+                  <span className="mt-4 mb-4 text-l text-gray-700">
+                    Prof. Dr. Zahide Mine Yazıcı
+                  </span>
                 </a>
+                <br />
+                <FaPhone
+                  className="bg-black text-white-100 font-normal items-center justify-center align-center h-10 w-10 mt-4 mb-4 focus:outline-none mr-2
+              inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
+                ></FaPhone>{" "}
+                <br />
+                <span className="text-l text-gray-700"> +905011554838</span>
               </div>
             </div>
           </div>
