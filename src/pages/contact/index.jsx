@@ -1,19 +1,18 @@
 import React from "react";
-import Map from "../../assets/images/map.png";
 import {
   FaWhatsapp,
   FaInstagram,
   FaLinkedin,
   FaRegEnvelope,
-  FaRegCalendarAlt,
+  FaPhone,
 } from "react-icons/fa";
 const Contact = () => {
   var circleclasses =
-    "inline-block p-2 m-2 rounded-full w-10 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
+    "inline-block p-4 m-4 rounded-full w-14 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
   var iconStyles = { color: "white", fontSize: "1.5em" };
   return (
     <>
-      <div id="contact" className="container my-24 mx-auto md:px-6">
+      <div id="contact" className="container w-full my-24 mx-auto md:px-6">
         <section className="mb-32 text-center">
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
@@ -26,24 +25,18 @@ const Contact = () => {
                     {/* inside contact div */}
                     <div className="flex justify-center">
                       <div className="flex flex-col">
-                        {/* <a
-                          href="https://www.medicana.com.tr/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href="">
                           <span
-                            style={{ background: "#c91b0f" }}
+                            style={{ background: "#000000" }}
                             className={circleclasses}
                           >
-                            {" "}
-                            <FaRegCalendarAlt style={iconStyles} />
+                            <FaPhone style={iconStyles} />
                           </span>
-                          <span className="text-lg font-bold">
+                          <span className="text-2xl font-bold">
                             <br />
-                            Pazartesi - Cuma: 9:30 AM to 6:30 PM
+                            +905011554838
                           </span>
-                        </a> */}
-
+                        </a>
                         <a
                           href="https://www.linkedin.com/in/zahide-mine-yaz%C4%B1c%C4%B1-252a70228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                           target="_blank"
@@ -55,7 +48,7 @@ const Contact = () => {
                           >
                             <FaLinkedin style={iconStyles} />
                           </span>
-                          <span className="text-lg font-bold">
+                          <span className="text-2xl ">
                             <br />
                             LinkedIn
                           </span>
@@ -71,7 +64,7 @@ const Contact = () => {
                           >
                             <FaRegEnvelope style={iconStyles} />
                           </span>
-                          <span className="text-lg font-bold">
+                          <span className="text-2xl ">
                             <br />
                             E-Mail
                           </span>
@@ -87,23 +80,22 @@ const Contact = () => {
                           >
                             <FaInstagram style={iconStyles} />
                           </span>
-                          <span className="text-lg font-bold">
+                          <span className="text-2xl ">
                             <br />
                             Instagram
                           </span>
                         </a>
-
                         <a
                           target="_blank"
                           aria-label="Chat on WhatsApp"
                           href="https://wa.me/+905011554838"
                         >
                           <FaWhatsapp
-                            className="bg-green-400 text-white-100 shadow-lg font-normal h-10 w-10 items-center justify-center align-center  outline-none focus:outline-none mr-2
+                            className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 m-2 items-center justify-center align-center outline-none focus:outline-none mr-2
                             inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
                             type="button"
                           ></FaWhatsapp>
-                          <span className="text-lg font-bold">
+                          <span className="text-2xl ">
                             <br />
                             WhatsApp
                           </span>
