@@ -26,7 +26,7 @@ const Contact = () => {
                     {/* inside contact div */}
                     <div className="flex justify-center">
                       <div className="flex flex-col">
-                        <a
+                        {/* <a
                           href="https://www.medicana.com.tr/"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Contact = () => {
                             <br />
                             Pazartesi - Cuma: 9:30 AM to 6:30 PM
                           </span>
-                        </a>
+                        </a> */}
 
                         <a
                           href="https://www.linkedin.com/in/zahide-mine-yaz%C4%B1c%C4%B1-252a70228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
@@ -113,9 +113,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="md:mb-12 lg:mb-0">
-                  <div className="p-2 relative h-auto m-1 rounded-lg shadow-lg dark:shadow-black/20 border-solid border-2 border-sky-500 bg-gray-50">
+                  {/* <div className="p-2 relative h-auto m-1 rounded-lg shadow-lg dark:shadow-black/20 border-solid border-2 border-sky-500 bg-gray-50">
                     <img className="object-cover" src={Map} alt="Map" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const Hero = () => {
               <br />
               Kulak cerrahisi, endoskopik sinüs cerrahisi, burun cerrahisi,
               çocuk KBB ve baş boyun cerrahisi alanlarında uzman Prof. Dr.
-              Zahide Mine Yazıcı Ataköy Medicana Hastanesi’nde hastalarının
+              Zahide Mine Yazıcı hastalarının
               tedavi ve tanı ihtiyaçlarına güvenilir çözümler sunmaktadır.
             </h3>
             <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
