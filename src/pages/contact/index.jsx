@@ -55,7 +55,7 @@ const Contact = () => {
                           className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
                           name="message"
                           rows="20"
-                          required
+                          required 
                         ></textarea>
                       </div>
                       <button

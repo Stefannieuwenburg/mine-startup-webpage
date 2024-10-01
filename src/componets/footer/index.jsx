@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   FaWhatsapp,
@@ -9,9 +8,9 @@ import {
 
 const Footer = () => {
   var circleclasses =
-     "inline-block p-2 rounded-full w-10 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
+    "inline-block p-2 rounded-full w-10 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
   var iconStyles = { color: "white", fontSize: "1.5em" };
-  
+
   return (
     <footer
       id="footer"
@@ -46,7 +45,7 @@ const Footer = () => {
           </span>
         </a>
         <a
-          href="mailto:Zahide.yazici@medicana.com.tr?body=Prof. Dr. Mine Yazıcı,"
+          href="mailto:drminealmaz@hotmail.com?body=Prof. Dr. Mine Yazıcı,"
           target="_blank"
           rel="noopener noreferrer"
         >
