@@ -17,6 +17,56 @@ const Contact = () => {
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
               <div className="grid gap-x-20 items-center lg:grid-cols-2 gap-2">
+                <div>
+                  <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
+                    <h1 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
+                      e-posta gönderildi
+                    </h1>
+                    <form
+                      target="_blank"
+                      action="https://formsubmit.co/drminealmaz@hotmail.com"
+                      method="POST"
+                    >
+                      <div className="m-4">
+                        <div className="">
+                          <div className="m-4">
+                            <input
+                              type="text"
+                              name="name"
+                              className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
+                              placeholder="Ad Soyad"
+                              required
+                            />
+                          </div>
+                          <div className=" ">
+                            <input
+                              type="email"
+                              name="email"
+                              className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
+                              placeholder="E-posta Adresi"
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="">
+                        <textarea
+                          placeholder="Mesajınız"
+                          className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
+                          name="message"
+                          rows="20"
+                          required
+                        ></textarea>
+                      </div>
+                      <button
+                        type="submit"
+                        className="w-full m-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-100 text-white border-2  hover:bg-blue-800"
+                      >
+                        Gönderildi düğmesi
+                      </button>
+                    </form>
+                  </div>
+                </div>
                 <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                   <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
                     <h2 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
@@ -54,7 +104,7 @@ const Contact = () => {
                           </span>
                         </a>
                         <a
-                          href="mailto:Zahide.yazici@medicana.com.tr?body=Prof. Dr. Mine Yazıcı,"
+                          href="mailto:drminealmaz@hotmail.com?body=Prof. Dr. Mine Yazıcı,"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -104,11 +154,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="md:mb-12 lg:mb-0">
-                  {/* <div className="p-2 relative h-auto m-1 rounded-lg shadow-lg dark:shadow-black/20 border-solid border-2 border-sky-500 bg-gray-50">
-                    <img className="object-cover" src={Map} alt="Map" />
-                  </div> */}
-                </div>
+                <div className="md:mb-12 lg:mb-0"></div>
               </div>
             </div>
           </div>
