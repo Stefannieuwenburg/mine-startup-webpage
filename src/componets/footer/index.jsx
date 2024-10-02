@@ -45,7 +45,7 @@ const Footer = () => {
           </span>
         </a>
         <a
-          href="mailto:drminealmaz@hotmail.com?body=Prof. Dr. Mine Yazıcı,"
+          href="mailto:minezahide@yahoo.com?body=Prof. Dr. Mine Yazıcı,"
           target="_blank"
           rel="noopener noreferrer"
         >

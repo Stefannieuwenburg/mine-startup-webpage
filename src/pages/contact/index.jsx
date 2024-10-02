@@ -24,7 +24,7 @@ const Contact = () => {
                     </h1>
                     <form
                       target="_blank"
-                      action="https://formsubmit.co/drminealmaz@hotmail.com"
+                      action="https://formsubmit.co/minezahide@yahoo.com"
                       method="POST"
                     >
                       <div className="m-4">
@@ -55,12 +55,12 @@ const Contact = () => {
                           className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
                           name="message"
                           rows="20"
-                          required 
+                          required
                         ></textarea>
                       </div>
                       <button
                         type="submit"
-                        className="w-full m-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-100 text-white border-2  hover:bg-blue-800"
+                        className="w-full m-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-100 text-white border-2 hover:bg-blue-800"
                       >
                         Gönderildi düğmesi
                       </button>
@@ -104,7 +104,7 @@ const Contact = () => {
                           </span>
                         </a>
                         <a
-                          href="mailto:drminealmaz@hotmail.com?body=Prof. Dr. Mine Yazıcı,"
+                          href="mailto:minezahide@yahoo.com?body=Prof. Dr. Mine Yazıcı,"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
