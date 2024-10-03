@@ -12,14 +12,14 @@ const Contact = () => {
   var iconStyles = { color: "white", fontSize: "1.5em" };
   return (
     <>
-      <div id="contact" className="container w-full my-24 mx-auto md:px-6">
+      <div id="contact" className="container w-full my-4 mx-auto md:px-4">
         <section className="mb-32 text-center">
-          <div className="py-12 md:px-12">
+          <div className="py-10 md:px-10">
             <div className="container mx-auto xl:px-32">
               <div className="grid gap-x-20 items-center lg:grid-cols-2 gap-2">
                 <div>
                   {/* inside contact Form */}
-                  <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
+                  <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),    0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
                     <h1 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
                       e-posta gönderildi
                     </h1>
@@ -29,25 +29,23 @@ const Contact = () => {
                       method="POST"
                     >
                       <div className="m-4">
-                        <div className="">
-                          <div className="m-4">
-                            <input
-                              type="text"
-                              name="name"
-                              className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
-                              placeholder="Ad Soyad"
-                              required
-                            />
-                          </div>
-                          <div className=" ">
-                            <input
-                              type="email"
-                              name="email"
-                              className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
-                              placeholder="E-posta Adresi"
-                              required
-                            />
-                          </div>
+                        <div className="m-4">
+                          <input
+                            type="text"
+                            name="name"
+                            className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
+                            placeholder="Ad Soyad"
+                            required
+                          />
+                        </div>
+                        <div className=" ">
+                          <input
+                            type="email"
+                            name="email"
+                            className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
+                            placeholder="E-posta Adresi"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="">
@@ -61,7 +59,7 @@ const Contact = () => {
                       </div>
                       <button
                         type="submit"
-                        className="w-full m-4 sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-100 text-white border-2 hover:bg-blue-800"
+                        className="w-auto m-4 rounded-xl cursor-pointer py-2 px-4 font-semibold text-md bg-blue-100 text-white border-2 hover:bg-blue-800 "
                       >
                         Gönderildi düğmesi
                       </button>
