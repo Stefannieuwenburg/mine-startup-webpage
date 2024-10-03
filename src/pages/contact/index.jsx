@@ -18,13 +18,14 @@ const Contact = () => {
             <div className="container mx-auto xl:px-32">
               <div className="grid gap-x-20 items-center lg:grid-cols-2 gap-2">
                 <div>
+                  {/* inside contact Form */}
                   <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
                     <h1 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
                       e-posta gönderildi
                     </h1>
                     <form
                       target="_blank"
-                      action="https://formsubmit.co/minezahide@yahoo.com"
+                      action="https://formsubmit.co/6890c9439e233e9ea7daae8519eac8be"
                       method="POST"
                     >
                       <div className="m-4">
