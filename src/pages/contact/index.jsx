@@ -24,7 +24,6 @@ const Contact = () => {
                       e-posta gönderildi
                     </h1>
                     <form
-                      target="_blank"
                       action="https://formsubmit.co/6890c9439e233e9ea7daae8519eac8be"
                       method="POST"
                     >
