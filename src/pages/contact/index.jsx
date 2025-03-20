@@ -28,7 +28,7 @@ const Contact = () => {
                         <img
                           src={Item1}
                           alt="Desk"
-                          className="rounded-xl shadow-lg"
+                          className="rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
                         />
                       </div>
                       {/* Right side: Buttons */}
