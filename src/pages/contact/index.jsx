@@ -19,7 +19,7 @@ const Contact = () => {
         <section className="mb-32 text-center">
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
-              <div className="py-16 grid lg:grid-cols-2 gap-4 items-start">
+              <div className="grid lg:grid-cols-2 gap-4 items-start py-16 px-4">
                 {/* Left side: Image */}
                 <div>
                   <img
