@@ -25,12 +25,12 @@ const Contact = () => {
                   <img
                     src={Item1}
                     alt="Desk"
-                    className="rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
+                    className="py-12 rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
                   />
                 </div>
                 {/* Right side: Buttons */}
                 <div className="flex flex-col">
-                  <h2 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg">
+                  <h2 className="mb-4 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg">
                     İletişim
                   </h2>
                   <div className="flex justify-center">
