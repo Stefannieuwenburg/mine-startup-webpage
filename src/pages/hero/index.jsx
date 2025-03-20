@@ -29,8 +29,8 @@ const Hero = () => {
               <br />
               Kulak cerrahisi, endoskopik sinüs cerrahisi, burun cerrahisi,
               çocuk KBB ve baş boyun cerrahisi alanlarında uzman Prof. Dr.
-              Zahide Mine Yazıcı hastalarının
-              tedavi ve tanı ihtiyaçlarına güvenilir çözümler sunmaktadır.
+              Zahide Mine Yazıcı hastalarının tedavi ve tanı ihtiyaçlarına
+              güvenilir çözümler sunmaktadır.
             </h3>
             <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
               <button
@@ -47,7 +47,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="w-full h-auto md:w-3/4 flex justify-center md:justify-end">
+          <div className="w-full h-auto md:w-3/4 lg:w-2/3 flex justify-center md:justify-end">
             <img className="object-cover" src={Image} alt="hero" />
           </div>
         </div>
