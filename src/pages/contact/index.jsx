@@ -19,13 +19,13 @@ const Contact = () => {
         <section className="mb-32 text-center">
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
-              <div className="grid lg:grid-cols-2 gap-4 items-start">
+              <div className="py-16 grid lg:grid-cols-2 gap-4 items-start">
                 {/* Left side: Image */}
                 <div>
                   <img
                     src={Item1}
                     alt="Desk"
-                    className="py-12 rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
+                    className="rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
                   />
                 </div>
                 {/* Right side: Buttons */}
