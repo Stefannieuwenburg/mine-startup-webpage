@@ -21,11 +21,11 @@ const Contact = () => {
             <div className="container mx-auto xl:px-32">
               <div className="grid lg:grid-cols-2 gap-4 items-start">
                 {/* Left side: Image */}
-                <div className="py-24 px-4">
+                <div className="py-14 px-4">
                   <img
                     src={Item1}
                     alt="Desk"
-                    className="rounded-xl shadow-lg w-full lg:w-auto lg:max-w-[400px]"
+                    className="shadow-lg w-full lg:w-auto lg:max-w-[600px]"
                   />
                 </div>
                 {/* Right side: Buttons */}
