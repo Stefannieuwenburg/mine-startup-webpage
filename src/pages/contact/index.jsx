@@ -14,7 +14,7 @@ const Contact = () => {
     <>
       <div id="contact" className="container w-full my-4 mx-auto md:px-4">
         <section className="mb-32 text-center">
-          <div className="py-10 md:px-10">
+          <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
               <div className="grid gap-x-20 items-center lg:grid-cols-2 gap-2">
                 <div>
@@ -30,14 +30,14 @@ const Contact = () => {
                       <div className="m-4">
                         <div className="m-4">
                           <input
-                            type="text"
+                            type="name"
                             name="name"
                             className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
                             placeholder="Ad Soyad"
                             required
                           />
                         </div>
-                        <div className=" ">
+                        <div>
                           <input
                             type="email"
                             name="email"
@@ -47,7 +47,7 @@ const Contact = () => {
                           />
                         </div>
                       </div>
-                      <div className="">
+                      <div>
                         <textarea
                           placeholder="Mesajınız"
                           className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
@@ -55,6 +55,7 @@ const Contact = () => {
                           rows="20"
                           required
                         ></textarea>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
                       </div>
                       <button
                         type="submit"
