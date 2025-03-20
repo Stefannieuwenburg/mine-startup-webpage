@@ -6,10 +6,12 @@ import {
   FaRegEnvelope,
   FaPhone,
 } from "react-icons/fa";
+
 const Contact = () => {
-  var circleclasses =
-    "inline-block p-4 m-4 rounded-full w-14 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
-  var iconStyles = { color: "white", fontSize: "1.5em" };
+  const circleclasses =
+    "inline-block p-4 m-4 rounded-full w-14 mx-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300";
+  const iconStyles = { color: "white", fontSize: "1.5em" };
+
   return (
     <>
       <div id="contact" className="container w-full my-4 mx-auto md:px-4">
@@ -17,61 +19,11 @@ const Contact = () => {
           <div className="py-12 md:px-12">
             <div className="container mx-auto xl:px-32">
               <div className="grid gap-x-20 items-center lg:grid-cols-2 gap-2">
-                <div>
-                  {/* inside contact Form */}
-                  <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),    0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
-                    <h1 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
-                      e-posta gönderildi
-                    </h1>
-                    <form
-                      action="https://formsubmit.co/6890c9439e233e9ea7daae8519eac8be"
-                      method="POST"
-                    >
-                      <div className="m-4">
-                        <div className="m-4">
-                          <input
-                            type="name"
-                            name="name"
-                            className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
-                            placeholder="Ad Soyad"
-                            required
-                          />
-                        </div>
-                        <div>
-                          <input
-                            type="email"
-                            name="email"
-                            className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
-                            placeholder="E-posta Adresi"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <textarea
-                          placeholder="Mesajınız"
-                          className="shadow-sm bg-gray-50 text-gray-900 text-sm  focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light border-teal-400 rounded-xl border-2"
-                          name="message"
-                          rows="20"
-                          required
-                        ></textarea>
-                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
-                      </div>
-                      <button
-                        type="submit"
-                        className="w-auto m-4 rounded-xl cursor-pointer py-2 px-4 font-semibold text-md bg-blue-100 text-white border-2 hover:bg-blue-800 "
-                      >
-                        Gönderildi düğmesi
-                      </button>
-                    </form>
-                  </div>
-                </div>
                 <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                   <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
-                    <h2 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg ">
+                    <h2 className="mb-8 text-3xl font-bold text-white-100 bg-blue-100 rounded-lg">
                       İletişim
                     </h2>
-                    {/* inside contact div */}
                     <div className="flex justify-center">
                       <div className="flex flex-col">
                         <a href="">
@@ -97,7 +49,7 @@ const Contact = () => {
                           >
                             <FaLinkedin style={iconStyles} />
                           </span>
-                          <span className="text-2xl ">
+                          <span className="text-2xl">
                             <br />
                             LinkedIn
                           </span>
@@ -113,7 +65,7 @@ const Contact = () => {
                           >
                             <FaRegEnvelope style={iconStyles} />
                           </span>
-                          <span className="text-2xl ">
+                          <span className="text-2xl">
                             <br />
                             E-Mail
                           </span>
@@ -129,7 +81,7 @@ const Contact = () => {
                           >
                             <FaInstagram style={iconStyles} />
                           </span>
-                          <span className="text-2xl ">
+                          <span className="text-2xl">
                             <br />
                             Instagram
                           </span>
@@ -140,11 +92,10 @@ const Contact = () => {
                           href="https://wa.me/+905011554838"
                         >
                           <FaWhatsapp
-                            className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 m-2 items-center justify-center align-center outline-none focus:outline-none mr-2
-                            inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
+                            className="bg-green-400 text-white-100 shadow-lg font-normal h-12 w-12 m-2 items-center justify-center align-center outline-none focus:outline-none mr-2 inline-block p-2 rounded-full mx-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
                             type="button"
                           ></FaWhatsapp>
-                          <span className="text-2xl ">
+                          <span className="text-2xl">
                             <br />
                             WhatsApp
                           </span>
@@ -162,4 +113,5 @@ const Contact = () => {
     </>
   );
 };
+
 export default Contact;
