@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                   <div className="relative z-[1] block rounded-xl bg-gray-50 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14 border-4 border-teal-400">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                      {/* Left side: Image */}
+                      {/* Left side: Image 2 */}
                       <div>
                         <img
                           src={Item1}
