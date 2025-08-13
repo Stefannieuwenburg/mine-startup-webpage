@@ -41,3 +41,7 @@ fun project !!!
 # to do
 - add conection with the form contact
 - add whatsapp icon
+- Crafted with care by{" "}
+            <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">
+              WebDevStefan.nl
+            </a>

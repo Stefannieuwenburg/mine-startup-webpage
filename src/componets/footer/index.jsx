@@ -8,13 +8,13 @@ import {
 
 const Footer = () => {
   var circleclasses =
-    "inline-block p-2 rounded-full w-10 mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300";
+    "inline-block p-2 rounded-full w-10 mx-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300";
   var iconStyles = { color: "white", fontSize: "1.5em" };
 
   return (
     <footer
       id="footer"
-      className="flex flex-col space-y-10 justify-center m-10 "
+      className="flex flex-col space-y-10 justify-center m-10"
     >
       <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium text-xl text-center">
         <a className="hover:text-gray-900" href="#hero">
@@ -68,16 +68,21 @@ const Footer = () => {
           href="https://wa.me/+905011554838"
         >
           <FaWhatsapp
-            className="bg-green-400 text-white-100 shadow-lg font-normal h-10 w-10 items-center justify-center align-center  outline-none focus:outline-none mr-2
-              inline-block p-2 rounded-full  mx-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"
+            className="bg-green-400 text-white-100 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2 inline-block p-2 rounded-full mx-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
             type="button"
-          ></FaWhatsapp>
+          />
         </a>
       </div>
-      <p className=" text-center py-4">
-        @copyright developed by
-        <span className="text-brightColor"> Stefan nieuwenburg</span> | All
-        rights reserved
+
+      <p className="text-center py-4">
+        Crafted with care by{" "}
+        <a
+          href="https://webdevstefan.nl"
+          className="underline hover:text-gray-400 transition-colors"
+        >
+          WebDevStefan.nl
+        </a>{" "}
+        | All rights reserved
       </p>
     </footer>
   );
